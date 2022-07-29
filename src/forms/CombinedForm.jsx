@@ -28,7 +28,7 @@ const CombinedForm = () => {
   };
 
   return (
-    <div className='w-1/2 mx-auto'>
+    <div className='w-full md:w-1/2 mx-auto'>
       {progress.stage === 1 && <NameForm submitHandler={submitHandler} />}
       {progress.stage === 2 && <WorkspaceForm submitHandler={submitHandler} />}
       {progress.stage === 3 && <UsageForm submitHandler={submitHandler} />}

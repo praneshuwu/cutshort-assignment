@@ -15,7 +15,7 @@ function App() {
     <StageContext.Provider value={progressValue}>
 
         <div className='App bg-white h-screen flex content-center justify-center'>
-          <div className='w-3/4 border'>
+          <div className='w-full md:w-3/4'>
             <img src={logo} alt='Logo' className='mx-auto w-60' />
             <Stages progress={progress.progressBar} />
             <CombinedForm />
