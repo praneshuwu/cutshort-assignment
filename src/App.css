@@ -1,0 +1,38 @@
+.stages-container {
+  @apply w-96 mx-auto;
+}
+
+.stage-numbers-container {
+  @apply relative flex justify-between w-96 mx-auto mt-5;
+}
+
+.stage-number {
+  color: rgb(126, 126, 126);
+  @apply relative z-20 transition-colors;
+}
+
+.stage-number-bg {
+  border: 1px solid rgb(216, 216, 216);
+  content: '';
+  @apply block absolute top-0 left-0 -z-10 -translate-x-[40%] -translate-y-[30%] bg-white rounded-full p-7 transition-colors duration-[500ms];
+}
+
+.progress-bar {
+  @apply relative -top-[13px] right-[1.1rem] z-0 h-0.5 w-[110%] bg-slate-300;
+}
+
+.usage-container {
+  @apply cursor-pointer block border-2 border-slate-300 hover:border-[#6f5adb7f] hover:shadow-lg rounded-xl p-7 mx-3 w-60 text-left transition-all duration-200;
+}
+
+.usage-container.active {
+  @apply border-[#664de5];
+}
+
+.heading {
+  @apply text-2xl font-bold;
+}
+
+.description {
+  @apply text-slate-400 text-sm pt-3;
+}
