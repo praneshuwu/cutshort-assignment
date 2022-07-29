@@ -10,8 +10,6 @@ const UsageForm = ({ submitHandler }) => {
 
   const clickHandler = (activeDiv) => {
     setActiveUsage(activeDiv);
-    console.log("activeDiv: " ,activeDiv)
-    console.log("activeUsage: " ,activeUsage);
   };
 
 

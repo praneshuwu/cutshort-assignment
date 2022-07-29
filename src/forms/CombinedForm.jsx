@@ -19,13 +19,11 @@ const CombinedForm = () => {
         stage: stage + 1,
         progressBar: progressBar + 30,
       });
-      console.log('added 30');
     } else{
       setProgress({
         stage: stage + 1,
         progressBar: progressBar + 20,
       });
-      console.log('added 20');
     }
   };
 
