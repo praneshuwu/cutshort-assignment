@@ -34,7 +34,7 @@ const WorkspaceForm = ({submitHandler}) => {
             <label className='border-[1px] border-slate-300 border-r-0 bg-gray-100 rounded-l-md p-3 text-slate-400 font-thin text-md'>www.eden.com/</label>
         <input
           type='text'
-          className='flex-1 border-[1px] border-slate-300 bg-white rounded-r-md p-3'
+          className='w-[25%] flex-1 border-[1px] border-slate-300 bg-white rounded-r-md p-3'
           placeholder='Example'
           name='workspaceURL'
           onChange={handleChange}
